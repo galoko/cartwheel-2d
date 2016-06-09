@@ -28,7 +28,6 @@
 
 # Delphi compiler-generated binaries (safe to delete)
 *.exe
-*.dll
 *.bpl
 *.bpi
 *.dcp
@@ -115,3 +114,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# My Directories
+Backup/
+unit_output/

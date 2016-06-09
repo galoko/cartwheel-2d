@@ -1,0 +1,33 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Border.Styling = False
+  BorderStyle = None
+  Caption = 'MainForm'
+  ClientHeight = 922
+  ClientWidth = 1264
+  Position = Designed
+  Quality = HighQuality
+  FormFactor.Width = 1280
+  FormFactor.Height = 1024
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnKeyUp = FormKeyUp
+  DesignerMasterStyle = 0
+  object Image: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    DisableInterpolation = True
+    Size.Width = 1264.000000000000000000
+    Size.Height = 922.000000000000000000
+    Size.PlatformDefault = False
+    WrapMode = Original
+    OnMouseDown = ImageMouseDown
+    OnMouseMove = ImageMouseMove
+    OnMouseUp = ImageMouseUp
+    OnMouseWheel = ImageMouseWheel
+  end
+end
